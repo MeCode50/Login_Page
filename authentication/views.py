@@ -1,6 +1,6 @@
 from base64 import urlsafe_b64decode
 from django.http import HttpResponse
-from email.message import EmailMessage
+from django.core.mail import EmailMessage
 from gfg import settings
 from django.shortcuts import redirect, render
 from django.contrib.auth.models import User
